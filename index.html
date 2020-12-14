@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://www.youtube.com/s/desktop/592b853b/img/favicon_32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Youtube</title>
+    <script
+      src="https://kit.fontawesome.com/ee1cbfb3bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <button class="header__menuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="header__logo">
+        <button>
+          <i class="fab fa-youtube"></i>
+          <span>Premium</span><sup>KR</sup>
+        </button>
+      </div>
+      <div class="header__icons">
+        <button><i class="fas fa-search"></i></button>
+        <button><i class="fas fa-video"></i></button>
+        <button><i class="fas fa-th"></i></button>
+        <button><i class="fas fa-bell"></i></button>
+      </div>
+      <div class="header__avatar"></div>
+    </header>
+    <div class="responsive">
+      <div class="responsive-left">
+        <!-- video area -->
+        <section class="video">
+          <video controls src="./video/video.MOV"></video>
+        </section>
+        <!-- video info -->
+        <section class="info">
+          <!-- hashtag -->
+          <ul class="info__hashtag">
+            <li><a href="#">#christmas</a></li>
+            <li><a href="#">#happy2021</a></li>
+            <li><a href="#">#NewYear</a></li>
+          </ul>
+          <!-- title -->
+          <div class="info__title">
+            <span class="info__title__title clamp">
+              [Playlist] Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Dignissimos a adipisci repellendus, debitis voluptates
+              laboriosam quaerat non fugiat accusantium molestiae rerum numquam
+              aliquam dolorem quos officia, et odit temporibus soluta.
+            </span>
+            <button class="info__title__moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <!-- number of views -->
+          <span class="info__views">1.5K views</span>
+          <!-- icons -->
+          <div class="info__icons">
+            <button><i class="fas fa-thumbs-up"></i>375</button>
+            <button><i class="fas fa-thumbs-up"></i>0</button>
+            <button><i class="fas fa-share"></i>Share</button>
+            <button><i class="fas fa-plus"></i>Save</button>
+            <button><i class="fas fa-ellipsis-v"></i></button>
+          </div>
+        </section>
+        <!-- channel info -->
+        <section class="channel">
+          <div class="channel__info">
+            <div class="avatar"></div>
+            <div class="channel__info__name">
+              <span>welcomeToMyChannel</span>
+              <span>4.3K subscribers</span>
+            </div>
+          </div>
+          <button>Subscribe</button>
+        </section>
+      </div>
+      <!-- next videos -->
+      <section class="nextUp">
+        <h3>Up next</h3>
+        <ul class="nextUp__list">
+          <li>
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1607882589955-27facfb459c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1480&q=80"
+                alt=""
+              />
+            </div>
+            <div class="next-video__desc">
+              <span class="next-video__desc__title"
+                >[Playlist] Lorem ipsum dolor sit amet</span
+              >
+              <span class="next-video__desc__channel">christmas</span>
+              <span class="next-video__desc__views">73M views</span>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1607835017779-c176b83b2dd8?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                alt=""
+              />
+            </div>
+            <div class="next-video__desc">
+              <span class="next-video__desc__title"
+                >[Playlist] consectetur adipisicing</span
+              >
+              <span class="next-video__desc__channel">good morning</span>
+              <span class="next-video__desc__views">3.5M views</span>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1513297887119-d46091b24bfa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hyaXN0bWFzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                alt=""
+              />
+            </div>
+            <div class="next-video__desc">
+              <span class="next-video__desc__title"
+                >[Playlist] similique bis eum quorum</span
+              >
+              <span class="next-video__desc__channel">have a nice year</span>
+              <span class="next-video__desc__views">122K views</span>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1607882589955-27facfb459c9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1480&q=80"
+                alt=""
+              />
+            </div>
+            <div class="next-video__desc">
+              <span class="next-video__desc__title"
+                >[Playlist] Lorem ipsum dolor sit amet</span
+              >
+              <span class="next-video__desc__channel">christmas</span>
+              <span class="next-video__desc__views">73M views</span>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1607835017779-c176b83b2dd8?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMXx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                alt=""
+              />
+            </div>
+            <div class="next-video__desc">
+              <span class="next-video__desc__title"
+                >[Playlist] consectetur adipisicing</span
+              >
+              <span class="next-video__desc__channel">good morning</span>
+              <span class="next-video__desc__views">3.5M views</span>
+            </div>
+          </li>
+          <li>
+            <div class="thumbnail">
+              <img
+                src="https://images.unsplash.com/photo-1513297887119-d46091b24bfa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hyaXN0bWFzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                alt=""
+              />
+            </div>
+            <div class="next-video__desc">
+              <span class="next-video__desc__title"
+                >[Playlist] similique bis eum quorum</span
+              >
+              <span class="next-video__desc__channel">have a nice year</span>
+              <span class="next-video__desc__views">122K views</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
